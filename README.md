@@ -30,3 +30,5 @@ Setup dependencies with
 ```bash
 brew install mkcert && cd stacks/local && terraform init && terraform apply -auto-approve -var cluster_name=<<YOUR_CLUSTER_NAME>>
 ``````
+
+visit `https://mail.<<YOUR_CLUSTER_NAME>>.localhost`
