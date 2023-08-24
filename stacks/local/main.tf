@@ -1,3 +1,7 @@
+variable "cluster_name" {
+  type    = string
+  default = "local"
+}
 locals {
   domain      = "${var.cluster_name}.localhost"
   kube_config = module.cluster.credentials
